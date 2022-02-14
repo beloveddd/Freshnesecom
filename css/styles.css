@@ -1,0 +1,750 @@
+  @import "header-footer.css";
+
+  html {
+    min-width: 320px;
+  }
+
+  .wrapper {
+    padding: 15px;
+  }
+  
+  .category_menu {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    height: 410px;
+    padding-bottom: 64px;
+    z-index: 9;
+  }
+
+  .category_menu-list {
+    padding-top: 64px ;
+    padding-bottom: 0;
+  }
+
+  .category_menu-list p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 16px;
+  }
+
+  .category_menu-list ul li {
+    margin-bottom: 12px;
+  }
+
+  .category_menu-list ul li:last-child {
+    margin-bottom: 48px;
+  }
+
+  .category_menu-list ul li a {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-decoration-line: underline;
+    color: #6A983C;
+  }
+
+  .btn-group.btn-category {
+    border-radius: 12px;
+  }
+
+  .btn-danger1 {
+    background-color: #F5F5F5 !important;
+    border-color: transparent !important;
+    font-family: 'Poppins', sans-serif !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 15px !important;
+    line-height: 22px !important;
+    color: #151515 !important; 
+    padding: 12.5px 6px 12.5px 16px !important;
+  }
+  .btn.btn-danger1.dropdown-toggle.dropdown-toggle-split1::after {
+    display: none !important;
+  }
+
+  .dropdown-toggle-split1 {
+    padding: 0 16px 0 0 !important;
+  }
+
+  .img_arrow1 {
+    width: 16px;
+  }
+
+
+  .banner {
+    width: 420px;
+    height: 280px;
+    background: #F4F8EC;
+    background-image: url("../images/svg/background-svg.svg");
+    background-repeat: no-repeat;
+    background-size: 420px 280px;
+    border-radius: 12px;
+  }
+
+    .banner h1 {
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    color: #151515;
+    padding: 0 182px 95px 33px;
+  }
+
+  .banner p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color: #6A983C;
+    padding: 48px 0 0 33px;
+  }
+
+  .banner a {
+    width: 163px;
+    height: 47px;
+    border: 2px solid #92C064;
+    border-radius: 12px;
+    background-color: transparent;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 22px;
+    color: #151515;
+    padding: 10px 13px 10px 16px;
+    margin-left: 32px;
+    text-decoration: none;
+  }
+
+  .banner a img {
+    width: 16px;
+  }
+
+  .best_selling,
+  .best_farmers {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  .products:hover {
+    transform: scale(1.1);
+    transition: 1s;
+  }
+
+  .products_all a:hover,
+  .products_all1 a:hover {
+    text-decoration: none;
+  }
+
+  .products_all, .products_all1 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  
+   .products {
+    width: 269px;
+    height: 323px;
+    border: 1px solid #D1D1D1;
+    border-radius: 12px;
+    padding: 0 16px;
+  }
+
+  .products:not(:nth-of-type(3)):not(:nth-of-type(4)) {
+    margin-right: 25px;
+  }
+
+  .flex_product_1 {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin: 15px 0 16px;
+  }
+
+  p.price_product {
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #151515;
+  }
+
+  .products img {
+    width: 237px;
+    height: 180px;
+    margin: 16px 16px 16px 0;
+    border-radius: 12px;
+  }
+
+  .products h2 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: #151515;
+    margin-bottom: 4px;
+  }
+
+  .products p:not(.price_product) {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #575757;
+    margin-bottom: 16px;
+    display: block;
+  }
+
+  .products .flex_product_1 p:nth-of-type(2),
+  .products span p:nth-of-type(1) {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #151515;
+    margin-bottom: 0px;
+    
+  }
+
+  .products span p:nth-of-type(2) {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    text-decoration-line: line-through;
+    color: #A9A9A9;
+    
+  }
+
+  .products form button {
+    align-items: center;
+    width: 90px;
+    height: 36px;
+    background: #6A983C;
+    border: 2px solid #46760A;
+    border-radius: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 22px;
+    color: #FFFFFF;
+    padding-top: 5px;
+  }
+
+  .flex_product_sale {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+  }
+
+  .image_products {
+    position: relative;
+  }
+
+  .image_products p {
+    position: absolute;
+    top: 22px;
+    left: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color: #6A983C;
+  }
+
+  .section_headline {
+    height: 530px;
+  }
+
+  .section_headline .products_all1 .products:not(:nth-of-type(4)) {
+    margin-right: 5px;
+  }
+
+
+  .best_farmers {
+    margin-bottom: 114px;
+  }
+
+  .headline_block {
+    display: flex;
+    justify-content: space-between;
+  }
+
+    /* main Our customers says*/
+  .slider {
+    position: relative;
+  }
+  .slider_item {
+    margin: 0 auto;
+  }
+   
+  .slick-list {
+    overflow: hidden;
+  }
+  /* Лента слайдов */
+  .slick-track{
+    display: flex;
+  }
+  /* Стрелка */
+  .slick-arrow {
+    position: absolute;
+    top: 30%;
+    z-index: 5;
+    font-size: 0;
+    width: 32px;
+    height: 48px;
+    border-color: transparent;
+  }
+  /* Стрелка влево */
+  .slick-arrow.slick-prev{
+    left: 0;
+    background: url("../images/svg/slider_left.svg") 0 0 /100% no-repeat;
+    outline: none;
+  }
+  /* Стрелка вправо */
+  .slick-arrow.slick-next{
+    right: 0;
+    background: url("../images/svg/slider_right.svg") 0 0 /100% no-repeat;
+    outline: none;
+  }
+
+  .reviews_customers h1 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #151515;
+    display: inline-block;
+    margin: 0 0 41.5px 0;
+  }
+
+  .reviews_customers a {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 22px;
+    color: #151515;
+    text-decoration: none;
+    display: inline;
+  }
+
+  .customer {
+    width: 369px;
+    height: 198px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid #F1F1F1;
+    border-radius: 12px;
+    margin: 0 16px 90px 16px;
+  }
+
+  .customer p:nth-of-type(1) {
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    color: #151515;
+    padding: 24px 32px;
+  }
+
+  .customer p:nth-of-type(2) {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    color: #A9A9A9;
+    margin-bottom: 16px;
+  }
+
+/* main Read our Blog posts*/
+
+  .content_blog {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    height: 489px; 
+  }
+
+  .flex {
+    display: flex;
+    align-items: center;
+  }
+
+  .blog1 {
+    background-image: url("../images/food1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 469px;
+    height: 400px;
+    padding: 24px;
+    margin-right: 31.5px;
+  }
+
+  .blog1 a:first-child {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color: #6A983C;
+    width: 82px;
+    height: 18px;
+    background: #F4F8EC;
+    border-radius: 12px;
+    padding: 0 8px;
+  }
+
+  .blog1 h3 {
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    color: #FFFFFF;
+    margin: 200px 0 8px;
+  }
+
+  .blog1 p {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin: 0 8px;
+  }
+
+  .blog2 {
+    width: 269px;
+    height: 343px;
+    margin-right: 31.5px;
+  }
+  .blog2 img {
+    margin-bottom: 24px;
+  }
+
+  .blog2 a {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color: #6A983C;
+    width: 80px;
+    height: 18px;
+    background: #F4F8EC;
+    border-radius: 12px;
+    padding: 0 8px;
+  }
+
+  .blog2 h3 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #151515;
+    margin: 8px 0 16px;
+  }
+
+  .blog2 p,
+  .blog3 div p {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #151515;
+    display: inline;
+    margin-right: 16px;
+  }
+
+  .blog3 {
+    width: 369px;
+    height: 96px;
+    display: flex;
+    margin-bottom: 32px;
+  }
+
+  .blog3  div h3 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: #151515;
+    margin: 9.5px 48px 16px 0;
+  }
+
+  @media only all and (max-width: 1177px) {
+
+   
+    .category_menu-list ul,
+    .category_menu-list div.btn-group.btn-category {
+      display: none;
+    }
+    
+    .category_menu {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      justify-content: space-evenly;
+      
+    }
+
+    .category_menu .category_menu-list p {
+      grid-row: 1 / 3;
+      justify-content: space-evenly;
+    }
+
+   
+    .category_menu .banner {
+      grid-row:2;
+      grid-column: 1;
+    }
+
+    div.banner:last-child {
+      grid-row:2;
+      grid-column: 2; 
+      margin-left: 5px;
+    }
+
+    .best_selling,
+    .best_farmers {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
+    }
+
+    .products {
+      margin-right: 5px !important;
+    }
+
+    .products_all1 a:nth-of-type(4) {
+      display: none;
+    }
+
+    .content_blog {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr;
+    }
+
+    .blog .content_blog .blog2 {
+      display: none;
+    }
+
+    .blog1 {
+      margin-right: 15px;
+    }
+
+    .blog3 h3 {
+      margin-right: 15px;
+    }
+
+    .header___menu-main button.btn.btn-danger.dropdown-toggle.dropdown-toggle-split {
+      display: none;
+    }
+  }
+
+  @media only all and (max-width: 850px) {
+
+    .best_selling .category_menu-list {
+      padding-top: 0px;
+    }
+    
+    .category_menu .category_menu-list {
+      padding-top: 35px;
+    }
+    
+    .banner {
+      width: 330px;
+    }
+
+    .products_all,
+    .products_all1 {
+      justify-content: space-evenly;
+    }
+
+    .products_all a:nth-of-type(3),
+    .products_all1 a:nth-of-type(3) {
+      display: none;
+    }
+
+    .blog1 {
+      width: 369px;
+    }
+    
+  }
+
+  @media only all and (max-width: 790px) {
+    
+    .blog1 {
+      display: none;
+    }
+
+    .blog .content_blog .blog2 {
+      display: block;
+      grid-column: 1;
+    }
+
+    .slider,
+    .reviews .headline_block {
+      display: none;
+    }
+
+    .section_headline {
+      height: auto;
+      margin-bottom: 35px;
+    }
+
+    .best_farmers {
+      margin-bottom: 35px;
+    }
+
+    .content_blog {
+      height: auto;
+    }
+
+    .category_menu-list p,
+    .headline_block h1 {
+      font-size: 16px;
+    }
+  }
+
+  @media only all and (max-width: 704px) {
+    
+    .blog .content_blog .blog2 {
+      display: none;
+    }
+
+    .content_blog3 {
+      grid-column: 1 / 3;
+      justify-self: center;
+    }
+
+    .banner {
+      width: 230px;
+      justify-self: center;
+    }
+
+    .category_menu-list {
+      grid-column: 1 / 3;
+      justify-self: center;
+      padding-top: 0;
+    }
+
+    .best_farmers .category_menu-list p {
+      padding-top: 30px;
+    }
+
+    .section_headline {
+      display: none;
+    }
+
+    main .wrapper_2 {
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .category_menu {
+      z-index: 5;
+    }
+
+    .products {
+      width: 230px; 
+      margin-bottom: 5px;
+    }
+
+    .products:hover {
+      transform: none;
+      transition: none;
+    }
+
+    .products img {
+      width: 195px;
+      height: auto;
+    }
+  }
+
+  @media only all and (max-width: 497px) {
+    
+    .banner:last-child {
+      display: none;
+    }
+    
+    .category_menu .banner {
+      width: 330px;
+      justify-self: center;
+      grid-column: 1 / 3;
+    }
+  }
+
+  @media only all and (max-width: 387px) {
+
+    .reviews_customers .content_blog3 .blog3 div a h3 {
+      margin-right: 5px !important;
+    }
+
+    .blog3 {
+      width: 269px;
+    }
+
+    .banner {
+      width: 269px !important;
+    }
+  }
+
+  @media only all and (min-width: 320px) and (max-width: 480px) {
+  
+    html {
+      overflow-x:hidden;
+    }
+
+  }
+
+
+
+
+
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+
+  
+
+
