@@ -1,4 +1,4 @@
-# Freshnesecom - https://beloveddd.github.io/Freshnesecom/
+Freshnesecom - https://beloveddd.github.io/Freshnesecom/
 
 Freshnesecom is a 3-page website written using HTML, CSS, JS, jQuery, Bootstrap.
 
